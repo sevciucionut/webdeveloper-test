@@ -1,0 +1,46 @@
+@media (max-width: 300px) {
+    .titlu {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 400px) {
+    .titlu {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 750px) {
+    .titlu {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 992px) {
+    .titlu {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .titlu {
+        font-size: 4em;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
